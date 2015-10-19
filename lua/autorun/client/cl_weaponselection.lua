@@ -24,7 +24,7 @@ function SWL_GenerateWeapons(SWEPCategory)
 	local Weapons = {}
 
 	for i,SWEP in pairs(WeaponTable) do
-		--if SWEP.Base == "bobs_shotty_base" or SWEP.Base == "bobs_gun_base"  or SWEP.Base == "bobs_scoped_base" then
+		if SWEP.Base == "weapon_buu_base"
 			if SWEP.Spawnable then
 				if SWEP.Category then
 					if SWEP.Category ~= "" then
