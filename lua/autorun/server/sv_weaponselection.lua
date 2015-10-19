@@ -12,7 +12,7 @@ function SWL_PlayerInitalSpawn( ply )
 	end
 	
 	if not file.Exists( folder.."/"..storename .. ".txt", "DATA" ) then 
-		file.Write( folder.."/"..storename..".txt", "weapon_cs_m4 weapon_cs_usp" )
+		file.Write( folder.."/"..storename..".txt", "weapon_csgo_m4a1_s weapon_csgo_usp" )
 	end
 	
 	local weapon = file.Read(folder.."/"..storename ..".txt")
