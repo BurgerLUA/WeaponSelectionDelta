@@ -36,7 +36,7 @@ function SWL_GenerateWeapons(SWEPCategory)
 					end
 				end
 			end
-		--end
+		end
 	end
 	
 	return Weapons
